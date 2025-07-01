@@ -2,7 +2,7 @@
 cask "vapi-cli" do
   desc "Voice AI for developers - Vapi CLI"
   homepage "https://vapi.ai"
-  version "0.0.7"
+  version "0.0.8"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "vapi-cli" do
 
   on_macos do
     on_intel do
-      url "https://github.com/VapiAI/cli/releases/download/v0.0.7/cli_Darwin_x86_64.tar.gz"
-      sha256 "059d48261262f38b2342d5b95fa8e3d732ff02579f7b56b30a92f288f83ffb4c"
+      url "https://github.com/VapiAI/cli/releases/download/v0.0.8/cli_Darwin_x86_64.tar.gz"
+      sha256 "5b56e01223129527f8b73428822ddba4e3cbd7b64fed63746355fef3638af0fc"
     end
     on_arm do
-      url "https://github.com/VapiAI/cli/releases/download/v0.0.7/cli_Darwin_arm64.tar.gz"
-      sha256 "263f54d3560221e9893c0d6b723900e0a391747ec5f9cdac0dfba90ce2aae67e"
+      url "https://github.com/VapiAI/cli/releases/download/v0.0.8/cli_Darwin_arm64.tar.gz"
+      sha256 "d664cbe166d45e027c0d2eca4457093c97fc385e7b18ed4fbae279857c170284"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/VapiAI/cli/releases/download/v0.0.7/cli_Linux_x86_64.tar.gz"
-      sha256 "4766fc79f962316051f16453db6218db976f31f1501b779ad64ae14cb300c956"
+      url "https://github.com/VapiAI/cli/releases/download/v0.0.8/cli_Linux_x86_64.tar.gz"
+      sha256 "989fa37d3c2d87bf7a71648dcf769053de15953587d7f85bd35d0d68afde5ef4"
     end
     on_arm do
-      url "https://github.com/VapiAI/cli/releases/download/v0.0.7/cli_Linux_arm64.tar.gz"
-      sha256 "9f375490721469966f77e5bbb080dedecd7c511aae83f2133e27aaa2615d3137"
+      url "https://github.com/VapiAI/cli/releases/download/v0.0.8/cli_Linux_arm64.tar.gz"
+      sha256 "1fdb938d9f956b4c0ee530344bda5873a94c34419f5754346aecd4376a9512b6"
     end
   end
 
