@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-brew tap vapi/tap
+brew tap vapi-ai/tap
 brew install vapi-cli
 ```
 
