@@ -5,21 +5,21 @@
 class VapiCli < Formula
   desc "Voice AI for developers - Vapi CLI"
   homepage "https://vapi.ai"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/VapiAI/cli/releases/download/v0.1.2/cli_Darwin_x86_64.tar.gz"
-      sha256 "75fc00711dc2b660a5c79f26bee6a8d024e8104b35632c342fa18e94631eabb0"
+      url "https://github.com/VapiAI/cli/releases/download/v0.1.3/cli_Darwin_x86_64.tar.gz"
+      sha256 "82448b5d6ce094e48377967481eaa0d38ea32ea35e878030368bf8d65f84f833"
 
       def install
         bin.install "vapi"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/VapiAI/cli/releases/download/v0.1.2/cli_Darwin_arm64.tar.gz"
-      sha256 "9ca7ad9b10c1c25f94751baae3fd36ae68b357472ddbe80bc29fb218bcc55ab6"
+      url "https://github.com/VapiAI/cli/releases/download/v0.1.3/cli_Darwin_arm64.tar.gz"
+      sha256 "0f7cbcbcfbcfc34f094f1955f4d487aa1d639b3cfe62df8c35c22f8ae730c8ba"
 
       def install
         bin.install "vapi"
@@ -29,22 +29,22 @@ class VapiCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/VapiAI/cli/releases/download/v0.1.2/cli_Linux_x86_64.tar.gz"
-      sha256 "8e0f5bd7836d8b423f6efa2c55d53ba9bbfa898c52921dd2860c3222202cc614"
+      url "https://github.com/VapiAI/cli/releases/download/v0.1.3/cli_Linux_x86_64.tar.gz"
+      sha256 "17d09ffeae3ce2acaa327489696b2318137b85de6b42c2d64327b7ba1063667e"
       def install
         bin.install "vapi"
       end
     end
     if Hardware::CPU.arm? and !Hardware::CPU.is_64_bit?
-      url "https://github.com/VapiAI/cli/releases/download/v0.1.2/cli_Linux_armv6.tar.gz"
-      sha256 "23173bac66f37b9e3b750787da9601fce03cf483b516158a81b4b9e7df7806b6"
+      url "https://github.com/VapiAI/cli/releases/download/v0.1.3/cli_Linux_armv6.tar.gz"
+      sha256 "a674e6e718955217a0a30475ce8f36ff1e6049f7e84943a7dea39943ef835081"
       def install
         bin.install "vapi"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/VapiAI/cli/releases/download/v0.1.2/cli_Linux_arm64.tar.gz"
-      sha256 "4f3ec38509cee1158a0916135d83a63771fe1edc86acf578a2bdfebba3e9ffa2"
+      url "https://github.com/VapiAI/cli/releases/download/v0.1.3/cli_Linux_arm64.tar.gz"
+      sha256 "39a2fc9f419e0d427699d4b876151dde59bb8a579d8778869d49c4f264f7f4c1"
       def install
         bin.install "vapi"
       end
